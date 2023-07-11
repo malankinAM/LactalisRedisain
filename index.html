@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="./assets/img/logo1lact.svg" type="image/x-icon" style="width: 30px;">
+
+    <!--=============== ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Lactales</title>
+</head>
+
+<body >
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="./assets/img/logo1lact.svg" alt="logo1">
+            </a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="fa-sharp fa-solid fa-house" style="color: #e47d06;;"></i>
+                            <span>Домашняя</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#new" class="nav__link active-link">
+                            <i class="fa-sharp fa-solid fa-tag" style="color: #e47d06;"></i>
+                            <span>Новинка</span>
+                        </a>
+                       
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#collection" class="nav__link active-link">
+                            <i class="fa-sharp fa-regular fa-compass" style="color: #e47d06;;"></i>
+                            <span>Брэнды</span>
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#products" class="nav__link">
+                            <i class="fa-solid fa-cart-flatbed-suitcase" style="color: #e47d06;"></i>
+                            <span>Продукты</span>
+                        </a>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <!-- button -->
+            <i class="fa-regular fa-moon change-theme" id="theme-button" style="color: #e47d06;;"></i>
+
+        </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Lactalis Искусство <br> Получать удовольствие<br> от жизни!
+                    </h1>
+
+                    <p class="home__description">
+                        Наша продукция<br> у вас на столе!
+                    </p>
+
+                    <a href="#new" class="button__link">
+                        Узнать<i class="fa-solid fa-arrow-right" style="color: #739ee8;"></i>
+                    </a>
+                </div>
+
+                <div class="home__images">
+                    <img src="assets/img/бурато_трюфель-removebg-preview.svg" alt="home image" >
+                    <img src="assets/img/гальбани песто.svg" alt="home image">
+                </div>
+            </div>
+        </section>
+
+        <!--==================== NEW ====================-->
+        <section class="new section" id="new">
+                      <h2 class="section__title">Новые категории</h2>
+
+            <div class="new__container container grid">
+                <article class="new__card">
+                    <img src="./assets/img/Бри презедент.svg" alt="Bri Presedent" class="new__img">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Bri & Presedent
+                            </h2>
+                            <span class="new__subtitle">
+                                Новая категория
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <div class="new__card">
+                    <img src="./assets/img/пармалат1,8.svg" alt="Bri Presedent" class="new__img">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Parmalat & Presedent
+                            </h2>
+                            <span class="new__subtitle">
+                                Новая категория
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </div>
+
+                <article class="new__card">
+                    <img src="./assets/img/гальбани песто.svg" alt="Bri Presedent" class="new__img" style="width: 215px;">
+
+                    <a href="#" class="new__link">
+                        <div class="new__data">
+                            <h2 class="new__title">
+                                Galbani & Burrata
+                            </h2>
+                            <span class="new__subtitle">
+                                Новая категория
+                            </span>
+                        </div>
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+       </section>
+        <!--==================== COLLECTION ====================-->
+        <section class="collection section" id="collection">
+            <div class="collection__container container">
+                <div class="collection__explore">
+                    <div class="collection__data-men">
+                        <h2 class="collection__title">
+                            Масло <br>
+                            Parmalat
+                        </h2>
+                        <a href="" class="button__link">
+                            По пробуй<i class="fa-solid fa-arrow-right" style="color: #729ee9;"></i>
+                        </a>
+                    </div>
+
+                    <img src="./assets/img/maslo.svg" alt="пармалат масло">
+                </div>
+
+                <div class="collection__explore">
+                    <img src="./assets/img/белыйГ клуб.svg" alt="белый город клубника">
+
+                    <div class="collection__data-women">
+                        <h2 class="collection__title">
+                            Белый Город <br> Молочный коктель
+                        </h2>
+                        <a href="" class="button__link">
+                            По пробуй<i class="fa-solid fa-arrow-right" style="color: #729ee9;"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== PRODUCTS ====================-->
+        <section class="products section" id="products">
+            <h2 class="section__title">
+                Лучшии продукты
+            </h2>
+
+            <div class="products__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="products__card swiper-slide">
+                        <img src="./assets/img/parmalat123456.png" alt="Galbani" class="products__img" >
+
+                        <h2 class="products__title">
+                           Parmalat & Comfort
+                        </h2>
+                        <span class="products__price">
+                            &#x20bd;00.00
+                        </span>
+                    </article>
+
+                    <article class="products__card swiper-slide">
+                        <img src="./assets/img/presedent123456.png" alt="Galbani" class="products__img">
+
+                        <h2 class="products__title">
+                            President&Brie
+                        </h2>
+                        <span class="products__price">
+                            &#x20bd;00.00
+                        </span>
+                    </article>
+
+                    <article class="products__card swiper-slide">
+                        <img src="./assets/img/slider123456.png" alt="Galbani" class="products__img">
+
+                        <h2 class="products__title">
+                            Galbani & Burrata
+                        </h2>
+                        <span class="products__price">
+                            &#x20bd;00.00
+                        </span>
+                    </article>
+
+                    <article class="products__card swiper-slide">
+                        <img src="./assets/img/,tkujhjl1234.png" alt="Galbani" class="products__img">
+
+                        <h2 class="products__title">
+                          Большой & Город
+                        </h2>
+                        <span class="products__price">
+                            &#x20bd;00.00
+                        </span>
+                    </article>
+
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="fa-solid fa-arrow-right" style="color: #729ee9;"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="fa-solid fa-arrow-left" style="color: #5082d7;"></i>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== BRANDS ====================-->
+        <section class="brand section" >
+            <h2 class="section__title">
+                Бренды, которые мы продаем
+            </h2>
+
+            <div class="brand__container container grid">
+                <img src="./assets/img/PresidentLogo.svg" alt="logo brands" class="brand__img" style="width: 300px;">
+                <img src="./assets/img/logoBelGor.svg" alt="logo brands" class="brand__img" style="width: 300px;">
+                <img src="./assets/img/logoParmalat.svg" alt="logo brands" class="brand__img" style="width: 300px;">
+                <img src="./assets/img/logoSantal.svg" alt="logo brands" class="brand__img" style="width: 400px;">
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" >
+       
+        <div class="footer__container container grid" >
+            <h1 class="footer__description" style="text-align: center;">
+                Лакталис - компания №1 <br> в мире по производству <br>сырной продукции
+            </h1>
+            <div class="">
+                <a href="#" class="footer__logo">
+                    <img src="./assets/img/logo1lact.svg" alt="">
+                </a>
+
+               
+            </div>
+
+            <div class="footer__content" style="margin-left: 500px;" >
+
+               
+
+                <div class="">
+                    <h3 class="footer__title">
+                        Компания
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link">Магазин</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Категории</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Контакты</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="footer__title">
+                        Блог
+                    </h3>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="" class="footer__link">Cобытие</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Популярные новости</a>
+                        </li>
+
+                        <li>
+                            <a href="" class="footer__link">Свежие новости</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="">
+                    <h3 class="footer__title">
+                        Офисс
+                    </h3>
+
+                    <p class="footer__information">
+                        Понедельника - Воскресения <br>
+                        24/7 <br>
+                        Московская область 143581, дер. Лешково, д. 180 
+                    </p>
+                    <a href="tel:+74957870222">+7(495)-787-02-22</a>
+                </div>
+
+                <div class="">
+                    <h3 class="footer__title">
+                        Связь с нами
+                    </h3>
+
+                    <ul class="footer__social">
+                        <!-- Insert your name from your social instagram-->
+                        <a href="https://www.instagram.com/lactalisexperience/" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-instagram fa-beat"  style="color: #e60f4f;"></i>
+                        </a>
+                        <!-- Insert your name from your social youtube-->
+                        <a href="https://www.youtube.com/channel/UCnvhGFloAPx0lmYmANCzXaw" target="_blank" class="footer__social-link">
+                            <i class="fa-brands fa-youtube fa-beat" style="color: #d90243;"></i>
+                        </a>
+                        <!-- Insert your name from your social hh-->
+                        <a href="https://hh.ru/employer/3969675" target="_blank" class="footer__social-link" style="font-size: 2.25rem;">
+                            <img src="./assets/img/hh.svg" alt="" style="width: 25px; height: 20px; ">
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169;Все права защищены
+            </span>
+
+            <a href="#" class="footer__privacy">Alaska & Alex</a>
+        </div>
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="fa-sharp fa-solid fa-arrow-up fa-beat" style="color: #fc030f;"></i>
+        </a>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
